@@ -1,0 +1,12 @@
+logs
+*.log
+pids
+*.pid
+*.seed
+.grunt
+build/Release
+node_modules
+.lock-wscript
+.docs
+.gh_pages
+.idea
