@@ -79,6 +79,6 @@ module.exports = function(grunt) {
         'jshint'
     ]);
     grunt.registerTask('document', [
-        'docco'
+        'docco-plus'
     ]);
 };
