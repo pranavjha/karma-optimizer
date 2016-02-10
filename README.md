@@ -7,17 +7,16 @@
 [![peerDependency Status](https://img.shields.io/david/peer/pranavjha/karma-optimizer.svg?style=flat-square)](https://david-dm.org/pranavjha/karma-optimizer#info=peerDependencies)
 
 
-# Important
-
-**[RaptorJS Optimizer](https://github.com/raptorjs/optimizer) is the older version of
-[lasso optimizer](https://github.com/pranavjha/lasso). Consider using lasso. There is another
-[karma plugin for lasso](https://github.com/pranavjha/karma-optimizer) that you can use.**
-
-
 # karma-optimizer
 
 > Karma Plugin for [RaptorJS Optimizer](https://github.com/raptorjs/optimizer).
 
+
+## Important
+
+**[RaptorJS Optimizer](https://github.com/raptorjs/optimizer) is the older version of
+[lasso optimizer](https://github.com/pranavjha/lasso). Consider using lasso. There is another
+[karma plugin for lasso](https://github.com/pranavjha/karma-optimizer) that you can use.**
 
 ## Installation
 
