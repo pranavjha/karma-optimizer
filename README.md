@@ -1,15 +1,17 @@
-[![Build Status](https://travis-ci.org/pranavjha/karma-optimizer.svg)](https://travis-ci.org/pranavjha/karma-optimizer)
-[![Code Climate](https://codeclimate.com/github/pranavjha/karma-optimizer/badges/gpa.svg)](https://codeclimate.com/github/pranavjha/karma-optimizer)
+[![Build Status](https://img.shields.io/travis/pranavjha/karma-optimizer.svg?style=flat-square)](https://travis-ci.org/pranavjha/karma-optimizer)
+[![Code Climate](https://img.shields.io/codeclimate/github/pranavjha/karma-optimizer.svg?style=flat-square)](https://codeclimate.com/github/pranavjha/karma-optimizer)
+[![Documentation](https://img.shields.io/badge/documentation-plus-green.svg?style=flat-square)](http://pranavjha.github.io/karma-optimizer/)
 
-[![Dependency Status](https://david-dm.org/pranavjha/karma-optimizer.svg)](https://david-dm.org/pranavjha/karma-optimizer)
-[![devDependency Status](https://david-dm.org/pranavjha/karma-optimizer/dev-status.svg)](https://david-dm.org/pranavjha/karma-optimizer#info=devDependencies)
-[![peerDependency Status](https://david-dm.org/pranavjha/karma-optimizer/peer-status.svg)](https://david-dm.org/pranavjha/karma-optimizer#info=peerDependencies)
+[![Dependency Status](https://img.shields.io/david/pranavjha/karma-optimizer.svg?style=flat-square)](https://david-dm.org/pranavjha/karma-optimizer)
+[![devDependency Status](https://img.shields.io/david/dev/pranavjha/karma-optimizer.svg?style=flat-square)](https://david-dm.org/pranavjha/karma-optimizer#info=devDependencies)
+[![peerDependency Status](https://img.shields.io/david/peer/pranavjha/karma-optimizer.svg?style=flat-square)](https://david-dm.org/pranavjha/karma-optimizer#info=peerDependencies)
+
 
 # Important
 
 **[RaptorJS Optimizer](https://github.com/raptorjs/optimizer) is the older version of
-[lasso optimizer](https://github.com/lasso-js/lasso). Consider using lasso. There is another
-[karma plugin for lasso](https://github.com/lasso-js/karma-lasso) that you can use.**
+[lasso optimizer](https://github.com/pranavjha/lasso). Consider using lasso. There is another
+[karma plugin for lasso](https://github.com/pranavjha/karma-optimizer) that you can use.**
 
 
 # karma-optimizer
@@ -64,7 +66,6 @@ module.exports = function (config) {
         // 1. specify the config to be passed to optimizer in the optimizer key
         optimizer: {
             plugins: [
-                'i18n-ebay/optimizer/plugin',
                 'optimizer-less',
                 'optimizer-dust',
             ],
@@ -116,7 +117,6 @@ module.exports = function (config) {
         // 2. specify the config to be passed to optimizer in the optimizer key
         optimizer: {
             plugins: [
-                'i18n-ebay/optimizer/plugin',
                 'optimizer-less',
                 'optimizer-dust',
             ],
