@@ -1,6 +1,6 @@
 {
     "name": "karma-optimizer",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "karma plugin for raptorjs optimizer",
     "main": "lib",
     "scripts": {
